@@ -1,5 +1,12 @@
-# AntiCombat-V2.
+# TxAadmin-Logs-V2
 
-💗 Release To day !!!!! 💗
+## Required version
+- ESX 1.94 Legacy (bis Version 1.10.1)
 
-https://discord.gg/qJebaA6Vc8
+## Installation
+- Drop Lifeinvader into your resource folder
+- Add ensure txadmin-logs to your server.cfg
+- If you wish to have discord logging edit config.lua to toggle and add a webhook
+
+## Check the discord
+https://discord.gg/WrQmADK3
