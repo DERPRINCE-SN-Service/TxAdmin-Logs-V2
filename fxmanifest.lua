@@ -1,12 +1,10 @@
-fx_version 'adamant'
+fx_version 'cerulean'
 game 'gta5'
-author 'DER PRINCE/SN_Service.io'
-version '1.1.0'
 lua54 'yes'
+author 'SN-Service'
+description "TxAdmin-Logs by DerPrince"
+version '1.2.0'
 
-escrow_ignore {
-    'config.lua',
-}
 server_scripts {
 	'sv_txadmin.lua',
 	'config.lua'
