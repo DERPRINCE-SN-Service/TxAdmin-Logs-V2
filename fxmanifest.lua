@@ -6,6 +6,8 @@ description "TxAdmin-Logs by DerPrince"
 version '1.2.0'
 
 server_scripts {
-	'sv_txadmin.lua',
-	'config.lua'
+  'config.lua',
+  'sv_txadmin.lua',
 }
+
+shared_script '@es_extended/imports.lua'
