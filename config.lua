@@ -1,3 +1,15 @@
+--   _____  _   __      ______ _  __  ___        __            _         __                                _    __ ___ 
+--  / ___/ / | / /     /_  __/| |/ / /   |  ____/ /____ ___   (_)____   / /   ____   ____ _ _____         | |  / //__ \
+--  \__ \ /  |/ /______ / /   |   / / /| | / __  // __ `__ \ / // __ \ / /   / __ \ / __ `// ___/ ______  | | / / __/ /
+-- ___/ // /|  //_____// /   /   | / ___ |/ /_/ // / / / / // // / / // /___/ /_/ // /_/ /(__  ) /_____/  | |/ / / __/ 
+--/____//_/ |_/       /_/   /_/|_|/_/  |_|\__,_//_/ /_/ /_//_//_/ /_//_____/\____/ \__, //____/           |___/ /____/
+--                                                                                /____/       
+
+Config = {}
+
+-- Username of the Webhook
+Config.name = 'TxAdminLogs'
+
 -- Change the embed images and color (icon_url, thumb_url Link and color must be changed, for ex. color = DecimalHere resets to a predefined standard)
 Config.Discord = {
     icon_url = "https://cdn.discordapp.com/attachments/1113397827444424736/1135615896283529297/tx-discord-logo.png", --> Icon Logo
@@ -11,70 +23,70 @@ Config.Events = {
     --> Restart Log
 
     enableRestartAndShutdownLog = true,
-    restartAndShutdownWebhook = "--Webook-here--",
+    restartAndShutdownWebhook = "link",
     
     --> Player Kicked Log
 
     enableKickLog = true,
-    kickWebhook = "--Webook-here--",
+    kickWebhook = "link",
     
     --> Player Warned Log
 
     enableWarnLog = true,
-    warnWebhook = "--Webook-here--",
+    warnWebhook = "link",
     
     --> Player Banned Log
 
     enableBanLog = true,
-    banWebhook = "--Webook-here--",
+    banWebhook = "link",
     
     --> Config Changed Log
 
     enableConfigChangedLog = true,
-    configChangedWebhook = "--Webook-here--",
+    configChangedWebhook = "link",
     
     --> Player healed Log
 
     enableHealLog = true,
-    healWebhook = "--Webook-here--",
+    healWebhook = "link",
     
     --> Announcement Log
 
     enableAnnounceLog = true,
-    announceWebhook = "--Webook-here--",
+    announceWebhook = "link",
     
     --> Direct Message Log
 
     enableDirectMessageLog = true,
-    directMessageWebhook = "--Webook-here--",
+    directMessageWebhook = "link",
 
     --> Warn Revoked Log
 
     enableWarnRevokedLog = true,
-    warnRevokedWebhook = "--Webook-here--",
+    warnRevokedWebhook = "link",
     
     --> Ban Revoked Log
 
     enableBanRevokedLog = true,
-    banRevokedWebhook = "--Webook-here--",
+    banRevokedWebhook = "link",
 
     --> Other Revoked Log
 
     enableOtherRevokedLog = true,
-    otherRevokedWebhook = "--Webook-here--",
+    otherRevokedWebhook = "link",
     
     --> Skipped next scheduled Restart Log
     
     enableSkippedNextScheduledRestartLog = true,
-    skippedNextScheduledRestartWebhook = "--Webook-here--",
+    skippedNextScheduledRestartWebhook = "link",
 
     --> Whitelist Player Log
 
     enableWhitelistPlayerLog = true,
-    whitelistPlayerWebhook = "--Webook-here--",
+    whitelistPlayerWebhook = "link",
 
     --> Admin Auth Log
 
     enableAdminAuthLog = true,
-    adminAuthWebhook = "--Webook-here--",
+    adminAuthWebhook = "link",
 }
